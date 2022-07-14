@@ -1,0 +1,25 @@
+
+.tabs li{
+    font-size: 1rem;
+    font-weight: bold;
+    display:inline;
+    color:darkslategrey;
+    padding: 1rem;
+}
+.tabs li.is-active{
+    color:red;
+    height: 100%;
+}
+.effect:hover{
+    transform :translateY(10%);
+}
+
+.Film{
+    color : darkblue;
+}
+.Drama{
+    color : darkgreen;
+}
+.Made{
+    color: darkgray;
+}
