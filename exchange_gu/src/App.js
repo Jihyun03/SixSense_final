@@ -3,8 +3,7 @@ import './App.css';
 import Menu from './MenuBar/Menu'
 import Zoom from './Zoom/Zooming'
 
-class App extends Component {
-  render(){
+function App() {
     const name = 'react';
     return (
       <div className="react">
@@ -12,9 +11,7 @@ class App extends Component {
         <div className="Zoom"><Zoom/></div>
     </div>
     );
-  }
 }
 
 
 export default App;
-

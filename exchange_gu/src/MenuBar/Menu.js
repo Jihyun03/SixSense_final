@@ -1,40 +1,57 @@
-import React, { Component } from "react";
+
+import React, { useState } from "react";
 import {CSSTransition} from 'react-transition-group';
-import './menu_style.css';
 import Film from './Film'
 import Series from './Series'
 import Made from './Made'
 
-const obj = {
-    0 : <Film />,
-    1 : <Series />,
-    2 : <Made />
-}
 const arr = ["Films","Series","2x9HD"]
 
-class Menu extends Component{
-    state = {
-        activeTab : 0
-    }
-    clickHandler = (id) => {
-        this.setState({activeTab : id})
-    }
-    render(){
-        return(
-            <div className="wrapper">
-                <ul className="tabs">
-                    {/* <li onClick={this.clickHandler(0)}>Films</li>
-                    <li onClick={this.clickHandler(1)}>Series</li>
-                    <li onClick={this.clickHandler(2)}>2x9HD</li> */}
-                    {arr.map((v,idx)=> {
-                        return <li key={idx} onClick= {()=>{this.clickHandler(idx)}}> {v} </li>
-                    })}
-                </ul>
-                <div className="contents">
-                    {obj[this.state.activeTab]}
-                </div>
-            </div>
-        );
-    }
+export default function Menu() {
+    const [activeIndex, setActiveIndex]=useState(0);
+
+    const tabClickHandler=(index)=>{
+        setActiveIndex(index);
+    };
+
+    const tabContArr=[
+        {
+            tabTitle:(
+                <li className={activeIndex===0 ? "is-active" : ""} onClick={()=>tabClickHandler(0)}> Films </li>
+            ),
+            tabCont:(
+                <div> <Film/> </div>
+            )
+        },
+        {
+            tabTitle:(
+                <li className={activeIndex===1 ? "is-active" : ""} onClick={()=>tabClickHandler(1)}> Series </li>
+            ),
+            tabCont:(
+                <div> <Series/> </div>
+            )
+        },
+        {
+            tabTitle:(
+                <li className={activeIndex===2 ? "is-active" : ""} onClick={()=>tabClickHandler(2)}> 2x9HD </li>
+            ),
+            tabCont:(
+                <div> <Made/> </div>
+            )
+        }
+    ];
+
+    return (
+        <div>
+          <ul className="tabs is-boxed">
+            {tabContArr.map((section, index)=>{
+                return section.tabTitle
+            })}
+          </ul>
+          <div>
+          	{tabContArr[activeIndex].tabCont}
+          </div>
+        </div>
+    );
 }
-export default Menu;
+
