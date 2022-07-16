@@ -1,4 +1,3 @@
-
 import React, { useState } from "react";
 import {CSSTransition} from 'react-transition-group';
 import Film from './Film'

@@ -10,7 +10,8 @@
     overflow: hidden;
     font-family: "Raleway", sans-serif;
     position: relative;
-    background: #333;
+    /* background: #333; */
+    background-image : url("../Images/exgu_1.jpg");
   }
 
   .slider_title {
