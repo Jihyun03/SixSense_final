@@ -18,7 +18,7 @@ function ImageSlider() {
             <div className="card-wrapper">
                 <div className="card">
                     <div className="card-image">
-                        <img src="images/1.jpg" />
+                        <img src="http://image.cine21.com/resize/cine21/person/2020/1223/18_23_20__5fe30c880775e[W578-].JPG" />
                     </div>
                     <ul className="social-icons">
                         <li><a href="#"><i className="fa fa-facebook"></i></a></li>
@@ -34,7 +34,7 @@ function ImageSlider() {
             <div className="card-wrapper">
                 <div className="card">
                     <div className="card-image">
-                        <img src="images/2.png" />
+                        <img src="https://img.wkorea.com/w/2020/09/style_5f678edebbfc6-539x700.jpg" />
                     </div>
                     <ul className="social-icons">
                         <li><a href="#"><i className="fa fa-facebook"></i></a></li>
