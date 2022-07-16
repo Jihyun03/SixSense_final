@@ -41,7 +41,7 @@ class Deck extends Component {
                 <Spring native to={{ x }} immediate={down} config={{ friction: 50, tension: 500 }}>
                   {({ x }) => (
                     <animated.div style={{ transform: x.interpolate(x => `translate3d(${x}px,${index * -4}px,0)`) }}>
-                      <animated.div style={{ backgroundImage: `url(s${url})` }} />
+                      <animated.div style={{ backgroundImage: `url(${url})` }} />
                     </animated.div>
                   )}
                 </Spring>
