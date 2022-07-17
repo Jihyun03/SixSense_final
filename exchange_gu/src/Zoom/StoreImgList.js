@@ -5,7 +5,7 @@ import "slick-carousel/slick/slick-theme.css";
 import "./StoreImgList.css"
 
 
-function ImageSlider() {
+function StoreImgList() {
     let settings = {
         dots: true,
         infinite: true,
@@ -132,4 +132,4 @@ function ImageSlider() {
     )
 }
 
-export default ImageSlider
+export default StoreImgList;
