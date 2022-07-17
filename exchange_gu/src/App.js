@@ -5,7 +5,7 @@ import Zoom from './Zoom/Zooming'
 import StoreImgList from './Zoom/StoreImgList'
 // import Swipe from './Swipe/Swipe'
 // import Deck from './Deck/Deck'
-import Gesture from './Gesture/Gesture'
+// import Gesture from './Gesture/Gesture'
 
 
 
