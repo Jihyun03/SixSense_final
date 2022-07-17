@@ -8,7 +8,7 @@ import reportWebVitals from './reportWebVitals';
 // <APP /> means App imported from './App'
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
+  <React.StrictMode className="entire">
     <App />
   </React.StrictMode>
 );
