@@ -12,6 +12,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-draggable": "^4.4.5",
+    "react-infinite-scroll-component": "^6.1.0",
     "react-lifecycles-compat": "^3.0.4",
     "react-medium-image-zoom": "^4.4.3",
     "react-responsive": "^9.0.0-beta.10",
