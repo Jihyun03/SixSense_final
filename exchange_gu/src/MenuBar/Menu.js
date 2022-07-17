@@ -16,6 +16,7 @@ export default function Menu() {
     return (
         <div>
             <Tabs
+                className="TabLists"
                 value={value}
                 onChange={handleChange}
                 textColor="secondary"

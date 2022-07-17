@@ -1,14 +1,6 @@
 
-.tabs li{
-    font-size: 1rem;
-    font-weight: bold;
-    display:inline;
-    color:darkslategrey;
-    padding: 5rem;
-}
-.tabs li.is-active{
-    color:red;
-    height: 100%;
+.TabLists{
+    margin-top: 5vw;
 }
 .effect:hover{
     transform :translateY(10%);
