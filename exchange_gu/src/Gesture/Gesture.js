@@ -1,3 +1,4 @@
+import { height, width } from '@mui/system';
 import React, {Component} from 'react';
 import ReactDOM from 'react-dom'
 import { useSpring, animated, to } from 'react-spring'
@@ -5,13 +6,19 @@ import { useGesture } from 'react-use-gesture'
 import './Gesture.css'
 
 const imgs = [
-    'https://drscdn.500px.org/photo/126979479/w%3D440_h%3D440/v2?webp=true&v=2&sig=09ea71b0ddb91e24a59cecfb79a0189a2ab575d10372d3e8d3258e38f97a6a49',
-    'https://drscdn.500px.org/photo/435236/q%3D80_m%3D1500/v2?webp=true&sig=67031bdff6f582f3e027311e2074be452203ab637c0bd21d89128844becf8e40',
-    'https://drscdn.500px.org/photo/188823103/w%3D440_h%3D440/v2?webp=true&v=3&sig=af23265ed9beaeeeb12b4f8dfed14dd613e5139495ba4a80d5dcad5cef9e39fd',
-    'https://drscdn.500px.org/photo/216094471/w%3D440_h%3D440/v2?webp=true&v=0&sig=16a2312302488ae2ce492fb015677ce672fcecac2befcb8d8e9944cbbfa1b53a',
-    'https://drscdn.500px.org/photo/227760547/w%3D440_h%3D440/v2?webp=true&v=0&sig=d00bd3de4cdc411116f82bcc4a4e8a6375ed90a686df8488088bca4b02188c73',
-    'https://drscdn.500px.org/photo/126979479/w%3D440_h%3D440/v2?webp=true&v=2&sig=09ea71b0ddb91e24a59cecfb79a0189a2ab575d10372d3e8d3258e38f97a6a49',
-    'https://drscdn.500px.org/photo/435236/q%3D80_m%3D1500/v2?webp=true&sig=67031bdff6f582f3e027311e2074be452203ab637c0bd21d89128844becf8e40'
+    'https://t1.daumcdn.net/news/202108/24/starnews/20210824081246233jxjq.jpg',
+    'https://t1.daumcdn.net/cafeattach/1IHuH/b4637e26d1a53f679cfea61280d56167782ebdb7',
+    'https://i.pinimg.com/736x/e3/56/4a/e3564ad950c81ebeab1c36e807cb236c.jpg',
+    'https://i.pinimg.com/236x/5d/48/23/5d4823f41738addf6cc705462e2b9cd6.jpg',
+    'https://blog.kakaocdn.net/dn/cQ90Hf/btrnTDJt1Wq/jK4EhEln7VHnrpVh2NP9X0/img.jpg',
+    'https://mblogthumb-phinf.pstatic.net/MjAyMTA4MThfMjA0/MDAxNjI5Mjk1ODYwMTI2.0kdoOCSDko-80RONK2-zPjJ0UBn10ZWQmuuox1iqUhog.68EEVxFlXdrwPn9CAmHEz9zXcKZZg3-rvmnvrgD0P-Mg.JPEG.alsrud933/IMG_6963.JPG?type=w800',
+    'https://pbs.twimg.com/media/E-moH-9VcAQh3D-.jpg:small',
+    'https://i.pinimg.com/564x/00/d2/e1/00d2e19253d8b1384900d042bd4714e6.jpg',
+    'https://social-phinf.pstatic.net/20211022_152/1634878073703MKBjY_GIF/2.gif',
+    'https://t1.daumcdn.net/cafeattach/1IHuH/242a7d0ec8dffdd30842b05bc3ea1a100d70b02f',
+    'https://t1.daumcdn.net/cafeattach/1IHuH/25f87848fd92a12b1090011a98db2254bdf7d483',
+    'https://t1.daumcdn.net/cafeattach/1IHuH/14b9c23c0a0a4afb367860140951c1142de95503',
+    'https://blog.kakaocdn.net/dn/bxbgFF/btro59TcOi5/fRh4RCTM9ePvSOT2rusKFk/img.jpg'
   ];
   
 
