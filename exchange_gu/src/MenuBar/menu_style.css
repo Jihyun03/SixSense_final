@@ -1,6 +1,6 @@
 
 .TabLists{
-    margin-top: 5vw;
+    margin-top: 10vh;
 }
 .effect:hover{
     transform :translateY(10%);

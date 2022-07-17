@@ -7,9 +7,12 @@ import Series from './Series'
 import Made from './Made'
 
 const arr = ["Films","Series","2x9HD"]
+const pagearr =[
+    <Film/>, <Series/>, <Made/>
+]
 
 export default function Menu() {
-    const [value, setValue] = React.useState('one');
+    const [value, setValue] = React.useState(0);
     const handleChange = (event, newValue) => {
         setValue(newValue);
     };
@@ -24,10 +27,11 @@ export default function Menu() {
                 aria-label="secondary tabs example"
                 centered = "true"
             >
-                <Tab value="one" label="Item One" />
-                <Tab value="two" label="Item Two" />
-                <Tab value="three" label="Item Three" />
+                <Tab value={0} label={arr[0]} />
+                <Tab value={1} label={arr[1]} />
+                <Tab value={2} label={arr[2]} />
             </Tabs>
+            <div>{pagearr[value]}</div>
         </div>
     );
 }
