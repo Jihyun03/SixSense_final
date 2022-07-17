@@ -13,7 +13,14 @@ class Made extends Component {
       },
     };
     return (
+      <div>
+        <h2>gh</h2>
+        <h2>gh</h2>
+        <h2>gh</h2>
+        <h2>gh</h2>
         <Youtube videoId="f9uLhQ1paW8" opts={opts} onReady={this._onReady}/>
+      </div>
+        
     
     );
   }

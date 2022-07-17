@@ -4,7 +4,7 @@
     font-weight: bold;
     display:inline;
     color:darkslategrey;
-    padding: 1rem;
+    padding: 5rem;
 }
 .tabs li.is-active{
     color:red;
@@ -13,7 +13,6 @@
 .effect:hover{
     transform :translateY(10%);
 }
-
 .Film{
     color : darkblue;
 }
