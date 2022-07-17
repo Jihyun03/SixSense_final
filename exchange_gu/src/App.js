@@ -26,7 +26,7 @@ class App extends Component {
     //     <Deck />
     // </div>
     // );
-    return <Deck/>
+    return <Menu />
   }
 }
 
