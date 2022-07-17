@@ -7,11 +7,10 @@
     display: block;
     width: 100%;
     height: 100vh;
-    overflow: hidden;
     font-family: "Raleway", sans-serif;
     position: relative;
-    /* background: #333; */
-    background-image : url("../Images/exgu_1.jpg");
+    background: #333;
+    /* background-image : url("../Images/exgu_1.jpg"); */
   }
 
   .slider_title {
