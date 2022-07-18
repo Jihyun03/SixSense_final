@@ -1,20 +1,15 @@
-import React, { useState } from "react";
+import React, { Fragment, useState } from "react";
 import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
 import Board from './Board'
 import Made from './Made'
 import Gesture from '../Gesture/Gesture'
+import Deck from '../Deck/Deck'
 
-<<<<<<< HEAD
 
-const arr = ["Films", "GCGF", "2x9HD"];
+const arr = ["Board","GCGF", "2x9HD", "Card"]
 const pagearr =[
-    <Film/>, <Gesture/>, <Made/> 
-=======
-const arr = ["Board","GCGF","2x9HD"]
-const pagearr =[
-    <Board/>, <Gesture className="Gesture"/>, <Made/>
->>>>>>> b66b456c19982365ba0b8f7037d4524ee5d7b38b
+    <Board/>, <div className="Gesture"><Gesture/></div>, <Made/>, <div className="Deck"><Deck/></div>
 ]
 
 export default function Menu() {
@@ -22,6 +17,7 @@ export default function Menu() {
     const handleChange = (event, newValue) => {
         setValue(newValue);
     };
+
     return (
         <div>
             <Tabs
@@ -36,6 +32,7 @@ export default function Menu() {
                 <Tab value={0} label={arr[0]}/>
                 <Tab value={1} label={arr[1]}/>
                 <Tab value={2} label={arr[2]}/>
+                <Tab value={3} label={arr[3]}/>
             </Tabs>
             <div>{pagearr[value]}</div>
         </div>

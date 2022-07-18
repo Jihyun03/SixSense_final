@@ -1,18 +1,18 @@
 import React, {Component} from "react";
 import './menu_style.css';
 import Youtube from "react-youtube";
-import Loading from "./Loading";
+// import Loading from "./Loading";
 
 class Made extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-        loading: false,
-    };
-  }
-  componentDidMount() {
-    this.state.loading = false;
-  }
+  // constructor(props) {
+  //   super(props);
+  //   this.state = {
+  //       loading: false,
+  //   };
+  // }
+  // componentDidMount() {
+  //   this.state.loading = false;
+  // }
   render(){
     const name = 'Made';
     const loading = this.state;

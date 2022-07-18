@@ -61,7 +61,7 @@
   box-shadow: 0px 30px 100px -10px rgba(0, 0, 0, 0.4);
 }
 
-.Gesture button {
+.Gesture > button {
   position: absolute;
   top: 20px;
   left: 20px;
