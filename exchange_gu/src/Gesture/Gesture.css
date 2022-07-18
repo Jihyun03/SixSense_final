@@ -1,18 +1,18 @@
-.FarClose > body,
-.FarClose > html {
+.Gesture > body,
+.Gesture > html {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir;
   background: #f0f0f0;
   height: 100vh;
 }
 
-.FarClose * {
+.Gesture * {
   box-sizing: border-box;
   user-select: none;
   -moz-user-select: none;
 }
 
-.FarClose {
+.Gesture {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -20,7 +20,7 @@
   width: 100vw;
 }
 
-.FarClose > div {
+.Gesture > div {
   position: relative;
   width: 30vw;
   height: 30vw;
@@ -35,33 +35,33 @@
   touch-action: none;
 }
 
-.FarClose > div > div {
+.Gesture > div > div {
   will-change: transform;
   height: 100%;
   margin: 0vw 0;
 }
 
-.FarClose > div > div > * {
+.Gesture > div > div > * {
   height: 100%;
   background-size: cover;
   background-position: center center;
   margin: 0vw 0;
 }
 
-.FarClose > div.dragging {
+.Gesture > div.dragging {
   cursor: grabbing;
 }
 
-.FarClose > div.disabled {
+.Gesture > div.disabled {
   opacity: 0.5;
   cursor: default;
 }
 
-.FarClose > div:hover {
+.Gesture > div:hover {
   box-shadow: 0px 30px 100px -10px rgba(0, 0, 0, 0.4);
 }
 
-.FarClose button {
+.Gesture button {
   position: absolute;
   top: 20px;
   left: 20px;
