@@ -1,13 +1,13 @@
 import React, { useState } from "react";
 import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
-import Film from './Film'
+import Board from './Board'
 import Made from './Made'
 import Gesture from '../Gesture/Gesture'
 
-const arr = ["Films","GCGF","2x9HD"]
+const arr = ["Board","GCGF","2x9HD"]
 const pagearr =[
-    <Film/>, <Gesture className="Gesture"/>, <Made/>
+    <Board/>, <Gesture className="Gesture"/>, <Made/>
 ]
 
 export default function Menu() {
