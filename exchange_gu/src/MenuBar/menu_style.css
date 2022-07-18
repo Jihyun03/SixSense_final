@@ -5,12 +5,10 @@
 .effect:hover{
     transform :translateY(10%);
 }
-.Film{
-    color : darkblue;
+.videoBlock{
+    margin-top: 20px;
 }
-.Drama{
-    color : darkgreen;
-}
-.Made{
-    color: darkgray;
+.videoBlock.video{
+    margin-left: 10px;
+    margin-right: 10px;
 }
