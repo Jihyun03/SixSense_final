@@ -5,31 +5,29 @@ import Zoom from './Zoom/Zooming'
 import StoreImgList from './Zoom/StoreImgList'
 // import Swipe from './Swipe/Swipe'
 // import Deck from './Deck/Deck'
-import Gesture from './Gesture/Gesture'
+// import Gesture from './Gesture/Gesture'
+
 
 class App extends Component {
   render(){
     const name = 'react';
     return (
-    //   <div className="react">
-    //     {/* <div className="MenuBar"><Menu/></div> */}
-    //     {/* <div className="Zoom"><Zoom/></div> */}
+      <div className="react">
+         {/* <div className="MenuBar"><Menu/></div> */}
+         {/* <div className="Zoom"><Zoom/></div> */}
 
-    //     <Swipe/>
-        // <Deck />
-        <Gesture/>
-    // </div>
-    // <div>
-    //   <div className="container mt-5 carousel">
-    //         <h1 className="slider_title">Exchange_gu</h1>
-    //         <StoreImgList />  
-    //   </div>
-    //   <Menu/>
-    // </div>
+         {/* <Swipe/> */}
+         {/* <Gesture/> */}
+       <div className="container mt-5 carousel">
+          <h1 className="slider_title">Exchange_gu</h1>
+            <StoreImgList />  
+       </div>
+       <Menu/>
+       {/* <div className='Deck'><Deck/></div> */}
+     </div>
     );
   }
 }
 
 
 export default App;
-

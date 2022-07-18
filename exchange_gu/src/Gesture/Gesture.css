@@ -1,18 +1,18 @@
-body,
-html {
+.FarClose > body,
+.FarClose > html {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir;
   background: #f0f0f0;
   height: 100vh;
 }
 
-* {
+.FarClose * {
   box-sizing: border-box;
   user-select: none;
   -moz-user-select: none;
 }
 
-#root {
+.FarClose {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -20,7 +20,7 @@ html {
   width: 100vw;
 }
 
-#root > div {
+.FarClose > div {
   position: relative;
   width: 30vw;
   height: 30vw;
@@ -35,33 +35,33 @@ html {
   touch-action: none;
 }
 
-#root > div > div {
+.FarClose > div > div {
   will-change: transform;
   height: 100%;
   margin: 0vw 0;
 }
 
-#root > div > div > * {
+.FarClose > div > div > * {
   height: 100%;
   background-size: cover;
   background-position: center center;
   margin: 0vw 0;
 }
 
-#root > div.dragging {
+.FarClose > div.dragging {
   cursor: grabbing;
 }
 
-#root > div.disabled {
+.FarClose > div.disabled {
   opacity: 0.5;
   cursor: default;
 }
 
-#root > div:hover {
+.FarClose > div:hover {
   box-shadow: 0px 30px 100px -10px rgba(0, 0, 0, 0.4);
 }
 
-button {
+.FarClose button {
   position: absolute;
   top: 20px;
   left: 20px;

@@ -1,0 +1,19 @@
+{
+  "name": "sixsense",
+  "version": "1.0.0",
+  "description": "madCamp week3 project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DebbieIsFree/SixSense.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DebbieIsFree/SixSense/issues"
+  },
+  "homepage": "https://github.com/DebbieIsFree/SixSense#readme"
+}

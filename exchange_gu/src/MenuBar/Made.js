@@ -13,7 +13,7 @@ class Made extends Component {
       },
     };
     return (
-      <div> 
+      <div style={{display: 'flex', justifyContent : 'center'}}> 
         <Youtube videoId="f9uLhQ1paW8" opts={opts} onReady={this._onReady} /> 
         <Youtube videoId="QmAWZMIRYEo" opts={opts} onReady={this._onReady} />
         <Youtube videoId="Jz2NR3KYN3c" opts={opts} onReady={this._onReady} />
