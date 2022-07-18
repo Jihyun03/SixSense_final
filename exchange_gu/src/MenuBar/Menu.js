@@ -1,15 +1,13 @@
 import React, { useState } from "react";
 import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
-import {CSSTransition} from 'react-transition-group';
 import Film from './Film'
-import Series from './Series'
 import Made from './Made'
 import Gesture from '../Gesture/Gesture'
 
-const arr = ["Films","Series","2x9HD", "Getting closer, getting farther away"]
+const arr = ["Films","GCGF","2x9HD"]
 const pagearr =[
-    <Film/>, <Series/>, <Made/>
+    <Film/>, <Gesture className="Gesture"/>, <Made/>
 ]
 
 export default function Menu() {
