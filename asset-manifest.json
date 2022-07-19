@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/SixSense_final/static/css/main.35b91b63.css",
+    "main.js": "/SixSense_final/static/js/main.d3f35865.js",
+    "static/js/787.71d03200.chunk.js": "/SixSense_final/static/js/787.71d03200.chunk.js",
+    "static/media/daum.ico": "/SixSense_final/static/media/daum.b83ef3da84aa35618c28.ico",
+    "static/media/youtube.ico": "/SixSense_final/static/media/youtube.8085531af19e29decff8.ico",
+    "static/media/naver.ico": "/SixSense_final/static/media/naver.0bfbbd54abb05f2676ab.ico",
+    "static/media/slick.svg": "/SixSense_final/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/SixSense_final/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/SixSense_final/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/SixSense_final/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/SixSense_final/index.html",
+    "main.35b91b63.css.map": "/SixSense_final/static/css/main.35b91b63.css.map",
+    "main.d3f35865.js.map": "/SixSense_final/static/js/main.d3f35865.js.map",
+    "787.71d03200.chunk.js.map": "/SixSense_final/static/js/787.71d03200.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.35b91b63.css",
+    "static/js/main.d3f35865.js"
+  ]
+}
