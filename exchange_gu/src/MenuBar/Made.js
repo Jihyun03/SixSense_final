@@ -2,6 +2,7 @@ import React, {Component} from "react";
 import './menu_style.css';
 import Youtube from "react-youtube";
 import Card from "./Card";
+import Imgshow from './Imgshow';
 
 class Made extends Component {
   // constructor(props) {
@@ -26,6 +27,7 @@ class Made extends Component {
     
     return (
       <div>
+          <Imgshow/>
           <div className="contents">
               <div className="videoBlock" style={{display: 'flex', justifyContent : 'center'}}> 
                 <Card>

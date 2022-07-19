@@ -1,10 +1,11 @@
 import React, { Fragment, useState } from "react";
 import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
-import Board from './Board'
-import Made from './Made'
-import Gesture from '../Gesture/Gesture'
-import Deck from '../Deck/Deck'
+import Board from './Board';
+import Made from './Made';
+import Gesture from '../Gesture/Gesture';
+import Deck from '../Deck/Deck';
+
 
 
 const arr = ["Board","GCGF", "2x9HD", "Card"]

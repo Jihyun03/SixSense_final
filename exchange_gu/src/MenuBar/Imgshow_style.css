@@ -1,0 +1,20 @@
+@import url(//fonts.googleapis.com/earlyaccess/jejugothic.css);
+.Fadeout{
+    margin-left: 10vw;
+    margin-top: 5vh;
+    display : flex;
+}
+
+.Titlecut{
+    text-align: center;
+    margin-top : 5vh;
+}
+
+.TitText{
+    font-family: 'Jeju Gothic', sans-serif;
+}
+
+.titleImage{
+    height: 56vh;
+    width: auto;
+}
