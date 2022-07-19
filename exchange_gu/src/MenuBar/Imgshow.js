@@ -1,6 +1,7 @@
 import React from "react";
 import style from "styled-components";
 import Fade from "react-reveal/Fade";
+import Bounce from 'react-reveal/Bounce';
 import { flexbox } from "@mui/system";
 import "./Imgshow_style.css"
 import Horizontal from "./Horizontal";
@@ -57,7 +58,9 @@ export default function Imgshow() {
                 </div>
             </div>
             <div className="centered">
-                <Horizontal text="Youtube"/> 
+                <Fade bottom>
+                    <Horizontal text="Youtube"/> 
+                </Fade>
             </div>
         </div>
         

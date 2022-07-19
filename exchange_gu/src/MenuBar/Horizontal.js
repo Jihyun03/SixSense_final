@@ -5,7 +5,7 @@ const Horizontal = ({ text }) => {
   return (
     <div
       style={{
-        width: "95%",
+        width: "88vw",
         textAlign: "center",
         borderBottom: "2px solid #000",
         lineHeight: "0.1em",

@@ -8,8 +8,8 @@
 
 .Titlecut{
     text-align: center;
-    margin-top : 10vh;
-    margin-bottom : 10vh;
+    margin-top : 20vh;
+    margin-bottom : 20vh;
 }
 
 .TitText{
@@ -46,11 +46,12 @@
 .centered{
     display:flex;
     justify-content: center;
-    margin-bottom: 3vh;
-    margin-top: 15vh;
+    margin-bottom: 8vh;
+    margin-top: 20vh;
 }
 
 .Fontblank{
-    font-size: 20pt;
+    font-size: 30pt;
+    font-weight: 800;
     font-family: 'Jeju Gothic', sans-serif;
 }

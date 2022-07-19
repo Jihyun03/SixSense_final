@@ -4,6 +4,7 @@ import Menu from './MenuBar/Menu'
 import StoreImgList from './Zoom/StoreImgList'
 import SignIn from './Members/SignIn'
 import Logout from './Members/Logout'
+import { Route, BrowserRouter as Router } from "react-router-dom";
 // import Swipe from './Swipe/Swipe'
 
 
