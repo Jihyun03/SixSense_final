@@ -3,6 +3,7 @@ import style from "styled-components";
 import Fade from "react-reveal/Fade";
 import { flexbox } from "@mui/system";
 import "./Imgshow_style.css"
+import Horizontal from "./Horizontal";
 
 const IntroBlock = style.div`
     @media (max-width: 768px) {
@@ -42,13 +43,22 @@ export default function Imgshow() {
                         <img className="titleImage" src="img/2x9hd_1.jpg"/> 
                     </IntroBlock>
                 </Fade>
-                <Fade right>
-                    <IntroBlock>
-                        <h1 className="TitText">2x9HD만의 감성</h1>
-                    </IntroBlock>
-                </Fade>
+                <div>
+                    <Fade right>
+                        <IntroBlock>
+                            <h1 className="TitText">2x9HD만의 감성</h1>
+                        </IntroBlock>
+                    </Fade>
+                    <Fade left>
+                        <IntroBlock>
+                            <img className="Underline" src="img/underline.png"/>
+                        </IntroBlock>
+                    </Fade>
+                </div>
             </div>
-            
+            <div className="centered">
+                <Horizontal text="Youtube"/> 
+            </div>
         </div>
         
     );
