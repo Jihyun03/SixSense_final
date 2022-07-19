@@ -4,6 +4,8 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./StoreImgList.css"
 
+import Zoom from 'react-medium-image-zoom';
+import 'react-medium-image-zoom/dist/styles.css'
 
 function StoreImgList() {
     let settings = {
@@ -23,9 +25,10 @@ function StoreImgList() {
                     </div>
                     <ul className="social-icons">
                         <li><a href=""><i className="fa fa-facebook"></i></a></li>
-                        <li><a href="https://movie.naver.com/movie/bi/mi/basic.naver?code=49601#"><i className="fa fa-instagram"></i></a></li>
-                        <li><a href="#"><i className="fa fa-twitter"></i></a></li>
-                        <li><a href="#"><i className="fa fa-dribbble"></i></a></li>
+                        <li><a href="https://movie.naver.com/movie/bi/mi/basic.naver?code=49601"><i className="fa fa-instagram"></i></a></li>
+                        {/* <li><a href="#"><i className="fa fa-twitter"></i></a></li> */}
+                        <li><a href="https://movie-phinf.pstatic.net/20111223_259/1324586767032sAWKl_JPEG/movie_image.jpg?type=m886_590_2" onClick={<Zoom/>}><i className="fa fa-twitter"></i></a></li>
+                        <li><a href="https://movie-phinf.pstatic.net/20111223_260/1324586766465uB2Ek_JPEG/movie_image.jpg?type=m886_590_2" onClick={<Zoom/>}><i className="fa fa-dribbble"></i></a></li>
                     </ul>
                     <div className="details">
                         <h2>아이들<span className="job-title">2008</span></h2>
@@ -35,13 +38,13 @@ function StoreImgList() {
             <div className="card-wrapper">
                 <div className="card">
                     <div className="card-image">
-                        <img src="http://storage.enuri.info/pic_upload/knowbox_rss/202109/aHR0cDovL2ltZy50Zi5jby5rci9hcnRpY2xlL2hvbWUvMjAyMS8wOS8yMy8yMDIxNzQ4MDE2MzIzNzQ2NDUuanBn" />
+                        <img src="https://img.wkorea.com/w/2020/09/style_5f678edebbfc6-539x700.jpg" />
                     </div>
                     <ul className="social-icons">
                         <li><a href=""><i className="fa fa-facebook"></i></a></li>
                         <li><a href="https://movie.naver.com/movie/bi/mi/basic.naver?code=54455"><i className="fa fa-instagram"></i></a></li>
-                        <li><a href="#"><i className="fa fa-twitter"></i></a></li>
-                        <li><a href="#"><i className="fa fa-dribbble"></i></a></li>
+                        <li><a href="https://movie-phinf.pstatic.net/20111223_82/1324633011203EMtFJ_JPEG/movie_image.jpg?type=m886_590_2" onClick={<Zoom/>}><i className="fa fa-twitter"></i></a></li>
+                        <li><a href="https://movie-phinf.pstatic.net/20111223_105/1324586934177Qb5CB_JPEG/movie_image.jpg?type=m886_590_2" onClick={<Zoom/>}><i className="fa fa-dribbble"></i></a></li>
                     </ul>
                     <div className="details">
                         <h2>죽기 직전 그들<span className="job-title">2008</span></h2>
@@ -56,8 +59,8 @@ function StoreImgList() {
                     <ul className="social-icons">
                         <li><a href=""><i className="fa fa-facebook"></i></a></li>
                         <li><a href="https://movie.naver.com/movie/bi/mi/basic.naver?code=44910"><i className="fa fa-instagram"></i></a></li>
-                        <li><a href="#"><i className="fa fa-twitter"></i></a></li>
-                        <li><a href="#"><i className="fa fa-dribbble"></i></a></li>
+                        <li><a href="https://img.extmovie.com/files/attach/images/135/755/434/067/6686c97a12efbb0c73b3d9a2fa8f2bf4.jpg" onClick={<Zoom/>}><i className="fa fa-dribbble"></i></a></li>
+                        <li><a href="https://movie-phinf.pstatic.net/20111223_78/1324586791673QCOQf_JPEG/movie_image.jpg?type=m886_590_2" onClick={<Zoom/>}><i className="fa fa-twitter"></i></a></li>
                     </ul>
                     <div className="details">
                         <h2>김씨 표류기<span className="job-title">2009</span></h2>
@@ -67,16 +70,16 @@ function StoreImgList() {
             <div className="card-wrapper">
                 <div className="card">
                     <div className="card-image">
-                        <img src="https://img.wkorea.com/w/2020/09/style_5f678edebbfc6-539x700.jpg" />
+                        <img src="http://storage.enuri.info/pic_upload/knowbox_rss/202109/aHR0cDovL2ltZy50Zi5jby5rci9hcnRpY2xlL2hvbWUvMjAyMS8wOS8yMy8yMDIxNzQ4MDE2MzIzNzQ2NDUuanBn" />
                     </div>
                     <ul className="social-icons">
                         <li><a href="#"><i className="fa fa-facebook"></i></a></li>
-                        <li><a href="https://movie.naver.com/movie/bi/mi/basic.naver?code=52331"><i className="fa fa-instagram"></i></a></li>
-                        <li><a href="#"><i className="fa fa-twitter"></i></a></li>
-                        <li><a href="#"><i className="fa fa-dribbble"></i></a></li>
+                        <li><a href="https://movie.naver.com/movie/bi/mi/basic.naver?code=86502"><i className="fa fa-instagram"></i></a></li>
+                        <li><a href="https://movie-phinf.pstatic.net/20111223_18/1324641462767HdFSE_JPEG/movie_image.jpg?type=m886_590_2" onClick={<Zoom/>}><i className="fa fa-twitter"></i></a></li>
+                        <li><a href="https://movie-phinf.pstatic.net/20111223_264/1324642733751ybNRv_JPEG/movie_image.jpg?type=m886_590_2" onClick={<Zoom/>}><i className="fa fa-dribbble"></i></a></li>
                     </ul>
                     <div className="details">
-                        <h2>남매의 집 <span className="job-title">2010</span></h2>
+                        <h2>거북이들<span className="job-title">2011</span></h2>
                     </div>
                 </div>
             </div>
@@ -88,8 +91,8 @@ function StoreImgList() {
                     <ul className="social-icons">
                         <li><a href="#"><i className="fa fa-facebook"></i></a></li>
                         <li><a href="https://movie.naver.com/movie/bi/mi/basic.naver?code=154980"><i className="fa fa-instagram"></i></a></li>
-                        <li><a href="#"><i className="fa fa-twitter"></i></a></li>
-                        <li><a href="#"><i className="fa fa-dribbble"></i></a></li>
+                        <li><a href="https://movie-phinf.pstatic.net/20170424_181/14929980897465NwlX_JPEG/movie_image.jpg?type=m886_590_2" onClick={<Zoom/>}><i className="fa fa-twitter"></i></a></li>
+                        <li><a href="https://movie-phinf.pstatic.net/20170424_102/1492998375390CDaiP_JPEG/movie_image.jpg?type=m886_590_2" onClick={<Zoom/>}><i className="fa fa-dribbble"></i></a></li>
                     </ul>
                     <div className="details">
                         <h2>꿈의 제인<span className="job-title">2017</span></h2>
@@ -104,8 +107,8 @@ function StoreImgList() {
                     <ul className="social-icons">
                         <li><a href="#"><i className="fa fa-facebook"></i></a></li>
                         <li><a href="https://movie.naver.com/movie/bi/mi/basic.naver?code=185917"><i className="fa fa-instagram"></i></a></li>
-                        <li><a href="#"><i className="fa fa-twitter"></i></a></li>
-                        <li><a href="#"><i className="fa fa-dribbble"></i></a></li>
+                        <li><a href="https://mblogthumb-phinf.pstatic.net/MjAyMDA3MjlfMjAg/MDAxNTk1OTkxMDQ3MDc4.mG7AaIS0gmFWw_2SXYWlLUzke7S8Sy5sVCpO0MPFseEg.gKOXIya3Q4W3Fe7UpQwYnipyLGdnOb-8se-PFc2JtyQg.JPEG.cine_play/movie_image_(1).jpg?type=w800"  onClick={<Zoom/>}><i className="fa fa-twitter"></i></a></li>
+                        <li><a href="https://newsimg.sedaily.com/2020/07/21/1Z5E1C4VM1_1.jpg" onClick={<Zoom/>}><i className="fa fa-dribbble"></i></a></li>
                     </ul>
                     <div className="details">
                         <h2>반도<span className="job-title">2020</span></h2>
@@ -120,8 +123,8 @@ function StoreImgList() {
                     <ul className="social-icons">
                         <li><a href="#"><i className="fa fa-facebook"></i></a></li>
                         <li><a href="https://movie.naver.com/movie/bi/mi/basic.naver?code=192150"><i className="fa fa-instagram"></i></a></li>
-                        <li><a href="#"><i className="fa fa-twitter"></i></a></li>
-                        <li><a href="#"><i className="fa fa-dribbble"></i></a></li>
+                        <li><a href="https://movie-phinf.pstatic.net/20210617_33/1623893764803wD8Oz_JPEG/movie_image.jpg?type=m886_590_2" onClick={<Zoom/>}><i className="fa fa-twitter"></i></a></li>
+                        <li><a href="https://movie-phinf.pstatic.net/20210819_294/1629336030405v7C7b_JPEG/movie_image.jpg?type=m886_590_2" onClick={<Zoom/>}><i className="fa fa-dribbble"></i></a></li>
                     </ul>
                     <div className="details">
                         <h2>모가디슈<span className="job-title">2021</span></h2>
@@ -136,8 +139,8 @@ function StoreImgList() {
                     <ul className="social-icons">
                         <li><a href=""><i className="fa fa-facebook"></i></a></li>
                         <li><a href="https://www.netflix.com/kr/title/81312457"><i className="fa fa-instagram"></i></a></li>
-                        <li><a href="#"><i className="fa fa-twitter"></i></a></li>
-                        <li><a href="#"><i className="fa fa-dribbble"></i></a></li>
+                        <li><a href="https://pbs.twimg.com/media/E7NerIAVEAA5bDA.jpg" onClick={<Zoom/>}><i className="fa fa-twitter"></i></a></li>
+                        <li><a href="https://newsimg.hankookilbo.com/cms/articlerelease/2021/07/20/7e6de036-9a8a-4476-b4b3-02c73f921ee0.jpg" onClick={<Zoom/>}><i className="fa fa-dribbble"></i></a></li>
                     </ul>
                     <div className="details">
                         <h2>킹덤:아신전<span className="job-title">2021</span></h2>
@@ -152,8 +155,8 @@ function StoreImgList() {
                     <ul className="social-icons">
                         <li><a href=""><i className="fa fa-facebook"></i></a></li>
                         <li><a href="https://www.netflix.com/kr/title/81280917"><i className="fa fa-instagram"></i></a></li>
-                        <li><a href="#"><i className="fa fa-twitter"></i></a></li>
-                        <li><a href="#"><i className="fa fa-dribbble"></i></a></li>
+                        <li><a href="https://entertainimg.kbsmedia.co.kr/cms/uploads/BBSIMAGE_20210905125821_6db11ff910bb2b416186698058c5909d.jpg" onClick={<Zoom/>}><i className="fa fa-twitter"></i></a></li>
+                        <li><a href="https://post-phinf.pstatic.net/MjAyMTA4MjZfMTQ4/MDAxNjI5OTU5ODExNTEz.FhWyj85rWfYSGbKY3PjCShjVwwfvWpymptp0PgfUR9Ig.8ENmCsKAKKh2JuZLDi4KmK81LqmkmFQpqCXlwIim-bsg.JPEG/12.IMG_3768.jpg?type=w1200" onClick={<Zoom/>}><i className="fa fa-dribbble"></i></a></li>
                     </ul>
                     <div className="details">
                         <h2>DP<span className="job-title">2021</span></h2>
@@ -172,7 +175,7 @@ function StoreImgList() {
                         <li><a href="#"><i className="fa fa-dribbble"></i></a></li>
                     </ul>
                     <div className="details">
-                        <h2>이상한 변호사 우영우<span className="job-title">2023</span></h2>
+                        <h2>이상한 변호사 우영우<span className="job-title">2022</span></h2>
                     </div>
                 </div>
             </div>

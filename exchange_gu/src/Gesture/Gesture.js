@@ -18,7 +18,8 @@ const imgs = [
     'https://t1.daumcdn.net/cafeattach/1IHuH/242a7d0ec8dffdd30842b05bc3ea1a100d70b02f',
     'https://t1.daumcdn.net/cafeattach/1IHuH/25f87848fd92a12b1090011a98db2254bdf7d483',
     'https://t1.daumcdn.net/cafeattach/1IHuH/14b9c23c0a0a4afb367860140951c1142de95503',
-    'https://blog.kakaocdn.net/dn/bxbgFF/btro59TcOi5/fRh4RCTM9ePvSOT2rusKFk/img.jpg'
+    'https://blog.kakaocdn.net/dn/bxbgFF/btro59TcOi5/fRh4RCTM9ePvSOT2rusKFk/img.jpg',
+    'http://www.stardailynews.co.kr/news/photo/202109/307026_352486_165.jpg'
   ];
   
 

@@ -15,8 +15,8 @@ const pages = [
   'https://search.pstatic.net/sunny/?src=https%3A%2F%2Fimg.theqoo.net%2Fimg%2FyFLGG.jpg&type=sc960_832',
   'https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTA5MjhfMjAy%2FMDAxNjMyODI5ODQxNDcx.Y9pg5ANETsfOgu8vRRRjJxYOwq06GRhzAWE1lRKP-dkg.5OaTGxOWlnEbWInsE-0wzPNXtaeXhcB4ZYygRHb-mE0g.JPEG.bonavy0126%2FIMG_4177.JPG&type=sc960_832',
   'https://cafeptthumb-phinf.pstatic.net/MjAyMTA5MThfODAg/MDAxNjMxOTU0NDQ3MTYx.DyYj8COQw6KSg_SfZyzXnCTDYNd75i0bFmcwrlmLizcg.orbKVXltt6sya7YwJ3kkGlsRQjzSBRjxsYDigAX_XYIg.JPEG/01F48B50-5763-4E4A-AEC0-097672B2A2FD.jpeg?type=w800',
-  'https://search.pstatic.net/sunny/?src=https%3A%2F%2Fimg.theqoo.net%2Fimg%2FxmvYA.jpg&type=sc960_832',
-  'https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMjA3MTZfMTU2%2FMDAxNjU3OTgyODE2MTQz.ArIg286mIGPLksC08W13aMbiTe_itlN1KudDwrg8Ix0g.46UqjZqdwRVPJqXI1ubwbG-aO0nWfb9U0CvfcefDePog.JPEG.pinkpyh1018%2Foutput_3820556100.jpg&type=sc960_832'
+  'https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMjA3MTZfMTU2%2FMDAxNjU3OTgyODE2MTQz.ArIg286mIGPLksC08W13aMbiTe_itlN1KudDwrg8Ix0g.46UqjZqdwRVPJqXI1ubwbG-aO0nWfb9U0CvfcefDePog.JPEG.pinkpyh1018%2Foutput_3820556100.jpg&type=sc960_832',
+  'http://file.osen.co.kr/article_thumb/2022/03/18/202203181001774191_6233dc2b1b183_300x.jpg'
 ]
 
 class Deck extends Component {

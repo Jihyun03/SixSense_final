@@ -126,11 +126,12 @@
   .social-icons li a:hover .fa {
     color: #fff;
   }
-  
+
   .social-icons li a .fa {
     -webkit-transition: .8s;
     transition: .8s;
   }
+
 
   .social-icons li a .fa:hover {
     -webkit-transform: rotateY(360deg);
